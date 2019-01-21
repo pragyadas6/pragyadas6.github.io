@@ -4,10 +4,11 @@
   margin: auto;
   text-align: center;
   color : black;
+background-image : url(https://designshack.net/wp-content/uploads/white-texture-backgrounds.jpg);
 }
 #qwe {
 	background-image : url(https://cn.opendesktop.org/img//hive/content-pre1/174365-1.jpg);
-	background-size: 1000px 500px;
+	background-size: 100% 100%;
 }
 
 .title {
@@ -48,7 +49,7 @@ button:hover, a:hover {
   display: inline-block;
 }
 h1 {
-  text-shadow: 2px 2px #04118c;
+  text-shadow: 2px 2px #9e164e;
 }
 .container {
   position: relative;
