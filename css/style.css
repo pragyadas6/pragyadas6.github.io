@@ -36,8 +36,12 @@ button:hover, a:hover {
   opacity: 0.7;
 	border-radius:12px;
 }
-ul {
- list-style-type: square;
- list-style-position: outside;
- list-style-image: none;
+.parent {
+  text-align: center;
+}
+.parent > ul {
+  display: inline-block;
+}
+h1 {
+  text-shadow: 2px 2px #04118c;
 }
