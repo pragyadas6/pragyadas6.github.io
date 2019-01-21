@@ -4,7 +4,10 @@
   margin: auto;
   text-align: center;
   color : black;
-background-image : url(https://designshack.net/wp-content/uploads/white-texture-backgrounds.jpg);
+}
+#qwe {
+	background-image : url(https://cn.opendesktop.org/img//hive/content-pre1/174365-1.jpg);
+	background-size: 1000px 500px;
 }
 
 .title {
@@ -26,10 +29,12 @@ button {
   border-radius:12px;
 }
 
-a {
+#a1 {
+  background-color: #04327c;
+  color: white;
+  padding: 1em 1.5em;
   text-decoration: none;
-  font-size: 22px;
-  color: #000066;
+  text-transform: uppercase;
 }
 
 button:hover, a:hover {
@@ -44,4 +49,45 @@ button:hover, a:hover {
 }
 h1 {
   text-shadow: 2px 2px #04118c;
+}
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+/* Bottom left text */
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+
+/* Top left text */
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+
+/* Top right text */
+.top-right {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+}
+
+/* Bottom right text */
+.bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+}
+
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
